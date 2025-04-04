@@ -1,0 +1,120 @@
+/* External CSS File - styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Header Styles */
+.header {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.header-content {
+  text-align: center;
+}
+
+
+.header h1 {
+  margin: 0;
+  font-size: 40px;
+  
+}
+
+.header p {
+  margin: 10px 0;
+  font-size: 18px;
+  
+}
+
+
+/* Profile Picture */
+.profile_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid white;
+}
+
+/* Navigation Bar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+/* Sections Styling */
+.about, .qualifications, .skills, .projects, .contacts {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  color: black;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about p, .qualifications ul, .skills ul, .projects ul {
+  font-size: 18px;
+  color: grey;
+}
+
+/* Footer */
+.site-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
